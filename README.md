@@ -87,27 +87,27 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 ## Additional Read Me by Auf
-Main => routes/web
-View => resources/views/
-Controller => app/Http/Controllers/
-Model => database/migrations/
+- Main => routes/web
+- View => resources/views/
+- Controller => app/Http/Controllers/
+- Model => database/migrations/
 
 
 ## Terminal Commands
-composer -v => Check if composer installed in the system
-composer global require laravel/installer => Install Laravel Globally
-laravel new pizzahouse => run this in current directory will create laravel project called 'pizzahouse'
-php artisan serve => Run Localhost 
-php artisan make:controller PizzaController => Create Controller called 'PizzaController' in 'app/Http/Controllers/'
-php artisan make:migration create_pizzas_table => Create Migration file called '*crate_pizzas_table' in 'database/migrations/'
-php artisan migrate => Performs all recent migration file in 'database/migrations/' that never been migrated before (up status = 0). see php artisan status for UP status
-php artisan => artisan help
-php artisan migrate:rollback => Performs rollback from all recent migration file in 'database/migrations/' with status up = 1. See php artisan status for UP status
-php artisan make:model Pizza => Create Model called 'Pizza' in 'app/'
-npm install => install everything in package.json
-npm run dev => compile scss to css
-npm run watch => watch the changes of scss and compile to css
-composer rquire laravel/ui => Install UI Package for front end boiler (react, vue, or bootstrap)
-php artisan ui vue --auth => create UI with vue.js
-php artisan route-list => List all routes in the app
-php artisan make:model Kebab -mc => Create Model, Migration and Controller for Kebab sub App
+- composer -v => Check if composer installed in the system
+- composer global require laravel/installer => Install Laravel Globally
+- laravel new pizzahouse => run this in current directory will create laravel project called 'pizzahouse'
+- php artisan serve => Run Localhost 
+- php artisan make:controller PizzaController => Create Controller called 'PizzaController' in 'app/Http/Controllers/'
+- php artisan make:migration create_pizzas_table => Create Migration file called '*crate_pizzas_table' in 'database/migrations/'
+- php artisan migrate => Performs all recent migration file in 'database/migrations/' that never been migrated before (up status = 0). see php artisan status for UP status
+- php artisan => artisan help
+- php artisan migrate:rollback => Performs rollback from all recent migration file in 'database/migrations/' with status up = 1. See php artisan status for UP status
+- php artisan make:model Pizza => Create Model called 'Pizza' in 'app/'
+- npm install => install everything in package.json
+- npm run dev => compile scss to css
+- npm run watch => watch the changes of scss and compile to css
+- composer rquire laravel/ui => Install UI Package for front end boiler (react, vue, or bootstrap)
+- php artisan ui vue --auth => create UI with vue.js
+- php artisan route-list => List all routes in the app
+- php artisan make:model Kebab -mc => Create Model, Migration and Controller for Kebab sub App
